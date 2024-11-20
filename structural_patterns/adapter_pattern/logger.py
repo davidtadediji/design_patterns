@@ -6,7 +6,6 @@ class OldLogService(ABC):
     def log(self, message: str):
         pass
 
-
 class NewLogService:
     def log_message(self, message: str):
         print("New Log service: ", message)
